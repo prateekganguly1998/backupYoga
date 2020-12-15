@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #FFA9A8;
+}
+
+.App {
+  min-height: 720px;
+  min-width: 1280px;
+  text-align: left;
+  vertical-align: bottom;
+  height: 100%;
+  background-color: #FFA9A8;
+}
+
+#root {
+  height: 100%;
+  background-color: #FFA9A8;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
