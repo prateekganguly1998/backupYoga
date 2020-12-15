@@ -52,14 +52,9 @@ class PoseDotter extends React.Component {
       for (var i = 0; i < this.props.pose.source.keypoints.length; i++) {
         let x = this.props.pose.source.keypoints[i].position["x"];
         let y = this.props.pose.source.keypoints[i].position["y"];
-        ctx.beginPath();
-        ctx.arc(x, y, 4, 0, 2 * Math.PI);
-        ctx.fillStyle = "#FEA9A8";
-        ctx.fill();
+        ctx.fillText("●", x, y);
       }
-      console.log(this.props.pose.source);
-      if(this.props.pose.source.score>0.4)
-    this.drawSkeleton(this.props.pose.source.keypoints,0.2,ctx)
+     
     }
 
   }

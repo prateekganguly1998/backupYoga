@@ -27,11 +27,8 @@ const Checklist = props => (
           props.result[1].map((check_i, index) => <Criteria check={check_i} />)}
       </ul>
     </div>
-    <div className="logoholder"><img src="peakpose_logo.png" alt="Logo" /></div>
-
-    <div className="links">
-    <a href="https://github.com/nomats/asanaApp">GitHub</a> | <a href="https://github.com/nomats">NoMats</a> | AsanaWrap
-    </div>
+   
+  
   </div>
 );
 
